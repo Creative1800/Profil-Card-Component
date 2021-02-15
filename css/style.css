@@ -82,6 +82,25 @@ body {
     margin: 0 1.5em 1em 1.5em;
 }
 
+
+@media (max-width: 450px){
+    .container {
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px){
+    .container {
+        width: 300px;
+    }
+}
+
+@media (max-width: 350px){
+    .container {
+        width: 250px;
+    }
+}
+
 .victor-info {
     margin-bottom: 2em;
 }
@@ -121,3 +140,9 @@ p {
 .victor-age {
     font-size: 1.3rem;
 }
+
+/* @media (max-width: 450px){
+    p {
+        font-size: 0.9rem;
+    }
+} */
